@@ -1,0 +1,90 @@
+{
+  "faq_intents": [
+    {
+      "intent": "fertilizer_dosage",
+      "keywords": ["fertilizer", "urea", "dap", "mop", "dosage", "npk", "khad", "manure", "dose"],
+      "title": "Fertilizer & Nutrient Management Guidelines",
+      "summary": "Customized fertilizer schedule depends on crop, soil test report, and growth stage. Here are golden rules for primary macronutrients (NPK) and micronutrients.",
+      "points": [
+        "Basal Application: Always apply the full dose of Phosphorus (DAP/SSP) and Potash (MOP) along with 25-30% of Nitrogen at the time of final field preparation or sowing.",
+        "Split Nitrogen: Divide remaining Urea into 2 to 3 top-dressings at critical vegetative and reproductive stages (e.g., Tillering & Panicle Initiation in Rice; CRI & Jointing in Wheat).",
+        "Zinc Application: Apply Zinc Sulphate 21% @ 10 kg/acre or 33% @ 7 kg/acre. NEVER mix Zinc Sulphate directly in the same bucket/hopper with DAP, as insoluble zinc phosphate forms which crops cannot absorb.",
+        "Nano Urea / Nano DAP: Spray Nano Urea @ 4 ml per liter of water at active tillering/branching stage (30-35 days after sowing) to cut chemical urea consumption by 50% and avoid groundwater pollution.",
+        "Biofertilizers: Coat seeds with Rhizobium (for pulses), Azotobacter/Azospirillum (for cereals), and PSB (Phosphorus Solubilizing Bacteria) @ 10 g/kg seed."
+      ]
+    },
+    {
+      "intent": "pest_disease_remedy",
+      "keywords": ["pest", "disease", "insect", "leaf curl", "yellow leaves", "spray", "fungus", "caterpillar", "worm", "keeda", "bimari"],
+      "title": "Immediate Pest & Disease Action Protocol",
+      "summary": "When crop distress, wilting, leaf spotting, or insect attacks appear, follow this rapid 3-step intervention protocol.",
+      "points": [
+        "Step 1 - Accurate Identification: Check whether the problem is on old or young leaves, presence of insects (underside of leaf), chew marks, or powdery deposits.",
+        "Step 2 - Vector & Sucking Pest Control: If leaves are curling upwards with whiteflies or thrips, install yellow and blue sticky traps (25/acre) and spray Spinetoram 11.7% SC @ 1 ml/L or Neem Oil 10,000 ppm @ 3 ml/L.",
+        "Step 3 - Fungal Blight & Spot Control: If circular spots, yellow stripes, or cottony white growth appear, spray systemic fungicide like Mancozeb 75% WP @ 2.5 g/L (protectant) or Azoxystrobin + Difenoconazole @ 1 ml/L (curative).",
+        "Step 4 - Caterpillars & Borers: For Fall Armyworm or Pod Borers, spray Chlorantraniliprole 18.5% SC @ 0.4 ml/L or Emamectin Benzoate 5% SG @ 0.4 g/L during late afternoon hours."
+      ]
+    },
+    {
+      "intent": "organic_farming",
+      "keywords": ["organic", "jaivik", "natural farming", "jeevamrut", "beejamrit", "neem", "vermicompost", "chemical free", "prakritik"],
+      "title": "Natural & Organic Farming (Zero Budget / Prakritik Kheti)",
+      "summary": "Organic farming restores microbial life in soil, reduces input expenses to near zero, and fetches premium market prices.",
+      "points": [
+        "Jeevamrut Preparation: Mix 10 kg fresh indigenous cow dung + 10 L cow urine + 2 kg jaggery + 2 kg pulse flour (Besan) + handful of undisturbed forest soil in 200 L water. Ferment for 48-72 hours in shade. Apply through irrigation water (200 L/acre) every 15-21 days.",
+        "Beejamrit Seed Treatment: Mix 5 kg cow dung, 5 L cow urine, 50 g edible lime (chuna), and 20 L water. Coat seeds and dry in shade before sowing to protect against soil-borne root rot and damping off.",
+        "Neemastra & Agniastra Pest Repellents: Boil crushed neem leaves, green chillies, garlic, and tobacco in cow urine; dilute 1:20 with water for natural broad-spectrum protection against chewing and sucking pests.",
+        "Mulching (Aachhadan): Keep the soil covered with dried straw or live legume cover crops to preserve earthworms, retain humidity, and regulate soil temperature."
+      ]
+    },
+    {
+      "intent": "water_irrigation",
+      "keywords": ["irrigation", "water", "drip", "sprinkler", "pani", "drought", "canal", "borewell", "tube well"],
+      "title": "Precision Irrigation & Water Conservation",
+      "summary": "Optimal water management maximizes crop yield while conserving 30% to 50% water.",
+      "points": [
+        "Critical Growth Stages: Never let the soil dry out during flowering, pod/earhead emergence, and grain filling stages.",
+        "Drip Irrigation Advantages: Saves 40-60% water, cuts weed growth by 70%, and enables fertigation (injecting soluble fertilizers directly into root zones). Eligible for up to 55-70% government subsidy under Per Drop More Crop (PMKSY).",
+        "Alternate Wetting & Drying (AWD) in Paddy: Allow standing water to naturally subside until water level drops 15 cm below soil surface (monitored via perforated field tube) before re-flooding. Saves 25-30% irrigation water with zero yield penalty and slashes methane emissions.",
+        "Combating Drought / Dry Spell: Apply straw mulch between rows; spray Potassium Nitrate (13:0:45) @ 1% or Kaolin clay (5%) to reduce leaf transpiration."
+      ]
+    },
+    {
+      "intent": "weather_climate_advisory",
+      "keywords": ["weather", "rain", "storm", "flood", "frost", "cold", "heat", "cyclone", "barish", "mausam"],
+      "title": "Climate Resilience & Weather Emergency Measures",
+      "summary": "Weather shocks (sudden unseasonal downpours, frost, or heatwaves) require proactive defense.",
+      "points": [
+        "Unseasonal Rain / Hailstorm Warning: Harvest mature crops immediately if grain moisture is acceptable; postpone pesticide spraying and top-dressing urea; open field drainage channels to avoid standing water.",
+        "Post-Flood Drainage: Drain inundated fields within 24-48 hours; spray 1% Urea + 0.5% Zinc Sulphate once water recedes to revive root nutrient intake; drench with Saaf fungicide (2 g/L) to prevent collar rot.",
+        "Frost Protection (Northern India in Jan): Light evening irrigation increases soil thermal mass; create light smoke screens (burning dry leaves/cow dung cakes) on northern boundary in evening.",
+        "Terminal Heat Wave in Wheat: Spray Potassium Nitrate (1%) at flag leaf and milking stage to enhance osmotic adjustment and guard against premature grain shrivelling."
+      ]
+    },
+    {
+      "intent": "government_schemes",
+      "keywords": ["scheme", "subsidy", "pm kisan", "pmfby", "kcc", "loan", "insurance", "yojana", "sarkari", "compensation"],
+      "title": "Key Government Schemes & Agricultural Subsidies",
+      "summary": "Avail financial aid, insurance, solar pumps, and cheap credit offered by Central & State governments.",
+      "points": [
+        "PM-KISAN: ₹6,000/year in 3 installments. Ensure Aadhaar is linked to your bank account with e-KYC updated on pmkisan.gov.in.",
+        "PMFBY Crop Insurance: Pay only 2% premium for Kharif, 1.5% for Rabi. For localized crop damage (hailstorm, flood, unseasonal rain), register claim within 72 hours via Crop Insurance App or toll-free 14447.",
+        "Kisan Credit Card (KCC): Avail crop loans up to ₹3 Lakh at 4% effective interest (with 3% prompt repayment incentive). Accessible at your local bank with land records.",
+        "PM-KUSUM Solar Pump: Up to 60% capital subsidy on 3 HP to 10 HP solar water pumps. Apply via your state renewable energy development agency portal.",
+        "National Kisan Call Centre: Call 1800-180-1551 (Toll-Free, 6 AM to 10 PM in 22 regional Indian languages) for instant live consultation with agriculture scientists."
+      ]
+    },
+    {
+      "intent": "soil_health_testing",
+      "keywords": ["soil", "mitti", "testing", "ph", "alkaline", "acidic", "saline", "gypsum", "lime"],
+      "title": "Soil Testing & Land Reclamation Guide",
+      "summary": "Healthy living soil is the cornerstone of high farm productivity.",
+      "points": [
+        "How to Take a Soil Sample: Collect V-shaped soil samples from 8-10 zig-zag spots across 1 acre from top 15 cm depth. Mix thoroughly, air-dry in shade, quarter down to 500 grams, and send to nearest KVK or Soil Testing Lab.",
+        "Acidic Soils (pH < 6.0 - Common in NE India, Kerala, Western Ghats): Apply Agricultural Lime (CaCO3) or Dolomite @ 1-2 tonnes/acre once every 3 years to neutralize aluminum toxicity and release fixed phosphorus.",
+        "Alkaline / Sodic Soils (pH > 8.5 - Common in Haryana, Punjab, UP canal tracts): Apply Agricultural Gypsum based on laboratory gypsum requirement (2-3 tonnes/acre), flood with water, and leach out soluble sodium.",
+        "Saline Soils (High electrical conductivity EC > 4 dS/m): Provide drainage trenches and flush surface salts with fresh irrigation water; cultivate salt-tolerant varieties like CSR-36 paddy or KRL-210 wheat."
+      ]
+    }
+  ]
+}

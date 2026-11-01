@@ -1,0 +1,90 @@
+[
+  {
+    "id": "pm_kisan",
+    "name": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+    "category": "Direct Income Support",
+    "ministry": "Ministry of Agriculture & Farmers Welfare, Govt of India",
+    "benefit": "₹6,000 per year transferred directly to bank accounts in three equal 4-monthly installments of ₹2,000 each.",
+    "eligibility": "All landholding farmer families with cultivable land in their names (subject to exclusion criteria like institutional landholders, income tax payers, retired pensioners > ₹10,000/month).",
+    "documents_required": ["Aadhaar Card (Aadhaar-seeded bank account mandatory)", "Land Records (Khatauni / RoR / 7/12 extract)", "Active Mobile number linked to Aadhaar", "Bank Account Details (IFSC Code)"],
+    "application_procedure": "Apply online at pmkisan.gov.in -> 'New Farmer Registration', or visit nearest Common Service Centre (CSC) / State Agriculture Office. Complete mandatory e-KYC via OTP or biometrics.",
+    "helpline": "PM-KISAN Helpline: 155261 / 011-24300606 / Toll Free: 1800-115-526"
+  },
+  {
+    "id": "pmfby",
+    "name": "PMFBY (Pradhan Mantri Fasal Bima Yojana)",
+    "category": "Comprehensive Crop Insurance",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "benefit": "Comprehensive risk insurance from pre-sowing to post-harvest against non-preventable natural risks (drought, flood, unseasonal rain, pests, cyclone). Uniform low premium: 2% for Kharif crops, 1.5% for Rabi crops, and 5% for Annual Commercial / Horticultural crops. Balance premium subsidized by Central & State Govts.",
+    "eligibility": "All farmers growing notified crops in notified areas (both loanee and non-loanee farmers).",
+    "documents_required": ["Land possession certificate / RoR / Tenancy agreement", "Sowing Certificate / Prastavna", "Aadhaar Card", "Bank Passbook"],
+    "application_procedure": "Enroll via National Crop Insurance Portal (pmfby.gov.in), through Banks/PACS, or CSCs before the season cut-off date (usually July 31 for Kharif and Dec 31 for Rabi). In case of localized disaster, report loss within 72 hours via Crop Insurance App.",
+    "helpline": "Kisan Call Centre: 1800-180-1551 / Crop Insurance Helpline: 14447"
+  },
+  {
+    "id": "pm_kusum",
+    "name": "PM-KUSUM (Solar Agricultural Pumps & Grid Solarization)",
+    "category": "Solar Energy & Irrigation",
+    "ministry": "Ministry of New and Renewable Energy (MNRE)",
+    "benefit": "Component B: Up to 60% subsidy on standalone off-grid solar water pumps (3 HP to 10 HP) + 30% bank loan (farmer pays only 10%). Component C: Solarization of existing grid-connected agricultural pumps with option to sell surplus power back to DISCOM.",
+    "eligibility": "Individual farmers, groups of farmers, Water User Associations (WUAs), FPOs.",
+    "documents_required": ["Land ownership documents", "Aadhaar Card", "Bank Account Details", "Proof of current water source (borewell / pond / open well)"],
+    "application_procedure": "Register through respective State Renewable Energy Development Agencies (e.g., MEDA in Maharashtra, UPNEDA in UP, GUVNL in Gujarat, HAREDA in Haryana) or state agriculture portal.",
+    "helpline": "Toll Free: 1800-180-3333 / pmkusum.mnre.gov.in"
+  },
+  {
+    "id": "kcc",
+    "name": "Kisan Credit Card (KCC)",
+    "category": "Subsidized Institutional Farm Credit",
+    "ministry": "Reserve Bank of India & NABARD",
+    "benefit": "Short-term credit limit up to ₹3,00,000 at subsidized interest rate of 7% per annum; prompt repayment incentive of 3% brings effective net interest down to just 4% per annum. Collateral-free loan up to ₹1.60 lakh.",
+    "eligibility": "All farmers (owner cultivators, tenant farmers, sharecroppers, SHGs, JLGs) and allied sector farmers (dairy, poultry, fisheries).",
+    "documents_required": ["Application form", "Identity & Address proof (Aadhaar/Voter ID)", "Land cultivation proof / Tenancy agreement", "Passport photos"],
+    "application_procedure": "Submit one-page simplified KCC form at any commercial bank, Regional Rural Bank (RRB), or Cooperative Bank branch; or apply online through bank portals.",
+    "helpline": "NABARD Helpline / Contact local bank branch"
+  },
+  {
+    "id": "soil_health_card",
+    "name": "Soil Health Card (SHC) Scheme",
+    "category": "Soil Fertility & Nutrient Management",
+    "ministry": "Department of Agriculture and Farmers Welfare",
+    "benefit": "Free soil testing card issued every 2-3 years indicating status of 12 soil parameters: Macronutrients (N, P, K), Secondary nutrients (S), Micronutrients (Zn, Fe, Cu, Mn, Bo), and Physical parameters (pH, EC, Organic Carbon), with customized fertilizer & amendment recommendations.",
+    "eligibility": "All agricultural landowners across India.",
+    "documents_required": ["Soil sample collected from GPS grid of farmer's field", "Farmer ID & Land details"],
+    "application_procedure": "Contact local Village Agriculture Assistant / KVK / Soil Testing Lab. View or download card anytime on soilhealth.dac.gov.in by entering state, district, and farmer name.",
+    "helpline": "Kisan Call Centre: 1800-180-1551"
+  },
+  {
+    "id": "per_drop_more_crop",
+    "name": "Per Drop More Crop (Micro-Irrigation / PMKSY)",
+    "category": "Drip & Sprinkler Irrigation Subsidy",
+    "ministry": "Department of Agriculture and Farmers Welfare",
+    "benefit": "55% subsidy for Small & Marginal farmers and 45% subsidy for Other farmers on the capital cost of installing Drip Irrigation and Sprinkler systems (with additional top-up in many states up to 70-80%).",
+    "eligibility": "All farmers with an assured water source on their land.",
+    "documents_required": ["Aadhaar Card", "7/12 or RoR Land record", "Water source certificate / electricity bill", "Quotation from empaneled micro-irrigation vendor"],
+    "application_procedure": "Apply online through State Horticulture / Agriculture portals (e.g. Mahadbt in Maharashtra, GGRC in Gujarat, TNHORT in Tamil Nadu, Upagriculture in UP).",
+    "helpline": "District Horticulture Officer / State Agriculture Department"
+  },
+  {
+    "id": "pkvy",
+    "name": "Paramparagat Krishi Vikas Yojana (PKVY / Organic Farming)",
+    "category": "Organic Agriculture & Certification",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "benefit": "Financial assistance of ₹50,000 per hectare over 3 years: ₹31,000 directly for organic inputs (seeds, bio-fertilizers, vermicompost), plus support for PGS-India organic certification, packaging, and marketing.",
+    "eligibility": "Farmers forming clusters of 20-50 hectares (minimum 20-50 farmers per cluster).",
+    "documents_required": ["Cluster registration form", "Farmer group KYC", "Land records"],
+    "application_procedure": "Form a local organic farming group and submit cluster proposal to Regional Council / District Agriculture Officer or via Jaivik Kheti portal (jaivikkheti.in).",
+    "helpline": "jaivikkheti.in / KVK Organic Cell"
+  },
+  {
+    "id": "e_nam",
+    "name": "e-NAM (National Agriculture Market)",
+    "category": "Online Mandi Trading & Price Discovery",
+    "ministry": "Small Farmers' Agri-Business Consortium (SFAC)",
+    "benefit": "Pan-India electronic trading portal networking 1,300+ APMC mandis across 23 states/UTs, enabling transparent online bidding, real-time price discovery, assaying quality certification, and direct digital bank payment without middleman deductions.",
+    "eligibility": "All farmers bringing agricultural produce to registered APMC mandis.",
+    "documents_required": ["Aadhaar Card", "Bank Account Details (Passbook/Cancelled Cheque)", "Mobile number"],
+    "application_procedure": "Register free on enam.gov.in or through e-NAM mobile app or at mandi entry gate registration kiosk.",
+    "helpline": "e-NAM Toll Free: 1800-270-0224"
+  }
+]
