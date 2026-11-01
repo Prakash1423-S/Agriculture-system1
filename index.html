@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgriMitra (KrishiSeva) | Digital Agriculture Intelligence Platform</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-brand" data-goto="case-study-view">
+      <img src="assets/favicon.svg" alt="AgriMitra Logo" class="nav-logo">
+      <div class="brand-text">
+        <h1>AgriMitra</h1>
+        <span>National Agricultural Intelligence & Farmer Decision Support</span>
+      </div>
+    </div>
+
+    <nav class="nav-links">
+      <a href="#" class="nav-item active" data-target="case-study-view">Case Study</a>
+      <a href="#" class="nav-item" data-target="chat-view">Krishi AI Advisor</a>
+      <a href="#" class="nav-item" data-target="states-view">India States & Areas</a>
+      <a href="#" class="nav-item" data-target="crops-view">Crop Encyclopedia</a>
+      <a href="#" class="nav-item" data-target="doctor-view">Crop Doctor</a>
+      <a href="#" class="nav-item" data-target="schemes-view">Govt Schemes</a>
+      <a href="#" class="nav-item" data-target="calc-view">Fertilizer Calculator</a>
+    </nav>
+
+    <div class="nav-status">
+      <span class="status-dot" id="statusDot"></span>
+      <span id="statusText">Checking Backend...</span>
+    </div>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="hero-banner">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span>🇮🇳</span> Pan-India Agro-Climatic Intelligence (28 States & 8 UTs)
+      </div>
+      <h2 class="hero-title">Empowering Indian Agriculture with Actionable Intelligence</h2>
+      <p class="hero-subtitle">
+        Hyper-localized agronomic advisory, real-time pest diagnosis with chemical & organic remedies, state-specific crop packages, and instant AI query resolution for 140+ million farmers.
+      </p>
+
+      <div class="hero-stats">
+        <div class="stat-card">
+          <div class="stat-value">36</div>
+          <div class="stat-label">States & UTs Covered</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">30+</div>
+          <div class="stat-label">Crops with Full Practices</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">15</div>
+          <div class="stat-label">Agro-Climatic Zones</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">40+</div>
+          <div class="stat-label">Diagnostic Pathologies</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Application Body -->
+  <main class="main-container">
+
+    <!-- ======================================================================
+         SECTION 1: CASE STUDY PRESENTATION
+         ====================================================================== -->
+    <section id="case-study-view" class="view-section active">
+      <div class="case-study-hero">
+        <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:1rem; margin-bottom:1rem;">
+          <div>
+            <span class="badge" style="background:var(--primary-subtle); color:var(--primary-dark); margin-bottom:0.5rem; display:inline-block;">Case Study & System Blueprint</span>
+            <h3>AgriMitra: Next-Gen Agricultural Advisory & Agronomic Platform</h3>
+            <p style="color:var(--text-muted); font-size:0.95rem;">Client Context: National Agricultural Transformation & AgriStack (Digital Public Infrastructure)</p>
+          </div>
+          <button class="btn-send" data-goto="chat-view">
+            Try Live AI Advisor →
+          </button>
+        </div>
+
+        <p style="font-size:0.95rem; color:var(--text-main); margin-bottom:1.5rem; line-height:1.7;">
+          India's agrarian economy sustains over 55% of the national workforce across 15 distinct agro-climatic zones. However, smallholder and marginal farmers face acute productivity bottlenecks: regional microclimate divergence, sudden pest outbreaks costing ₹1.4 lakh crore annually, delayed diagnostic advice, and fragmented access to welfare schemes. AgriMitra was engineered as a comprehensive digital agriculture intelligence engine delivering precision agronomic recommendations, diagnostic solvers, and AI-driven advisory across every Indian state.
+        </p>
+
+        <!-- Case Study Tabs -->
+        <div class="case-study-tabs">
+          <button class="cs-tab-btn active" data-cstab="cs-overview">Executive Summary</button>
+          <button class="cs-tab-btn" data-cstab="cs-challenges">Agrarian Challenges</button>
+          <button class="cs-tab-btn" data-cstab="cs-architecture">Solution Architecture</button>
+          <button class="cs-tab-btn" data-cstab="cs-personas">User Personas</button>
+          <button class="cs-tab-btn" data-cstab="cs-impact">Impact Metrics</button>
+        </div>
+
+        <!-- Case Study Tab 1: Overview -->
+        <div id="cs-overview" class="cs-tab-content active">
+          <div class="grid-2">
+            <div class="card-item">
+              <h4>🎯 Core Objective</h4>
+              <p style="color:var(--text-muted); font-size:0.9rem;">
+                To democratize expert agronomic intelligence for every smallholder farmer in India by combining localized soil profiles, seasonal crop requirements, instant symptom-based pest diagnosis, and government subsidy access into an intuitive, zero-barrier platform.
+              </p>
+            </div>
+            <div class="card-item">
+              <h4>⚙️ Architectural Pillars</h4>
+              <ul style="margin-left:1.2rem; font-size:0.88rem; color:var(--text-muted); margin-top:0.3rem;">
+                <li><strong>Pan-India Coverage:</strong> 28 States + 8 UTs with soils, rainfall, districts, and advisories.</li>
+                <li><strong>Multi-Intent AI Engine:</strong> Answers questions on crops, fertilizers, weather, and schemes.</li>
+                <li><strong>Dual Treatment Solver:</strong> Provides precision chemical dosage alongside eco-friendly organic remedies.</li>
+                <li><strong>Multi-Runtime Backend:</strong> Powered by native PowerShell, Python, or Node.js with zero dependencies.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case Study Tab 2: Challenges -->
+        <div id="cs-challenges" class="cs-tab-content">
+          <div id="csChallengesContainer" class="grid-2"></div>
+        </div>
+
+        <!-- Case Study Tab 3: Architecture -->
+        <div id="cs-architecture" class="cs-tab-content">
+          <div id="csArchContainer" class="grid-2"></div>
+        </div>
+
+        <!-- Case Study Tab 4: Personas -->
+        <div id="cs-personas" class="cs-tab-content">
+          <div id="csPersonasContainer"></div>
+        </div>
+
+        <!-- Case Study Tab 5: Impact -->
+        <div id="cs-impact" class="cs-tab-content">
+          <div id="csMetricsContainer" class="metric-pill-grid"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 2: KRISHI AI Q&A ADVISOR
+         ====================================================================== -->
+    <section id="chat-view" class="view-section">
+      <div class="section-header">
+        <h2>Krishi AI Q&A Advisor</h2>
+        <p>Ask any question about crops, fertilizers, pest remedies, weather precautions, or government schemes.</p>
+      </div>
+
+      <div class="advisor-wrapper">
+        <!-- Sidebar filters & suggestions -->
+        <aside class="advisor-sidebar">
+          <div>
+            <h4>Context Customizer</h4>
+            <div class="filter-group" style="margin-top:0.75rem;">
+              <label>Select State / UT:</label>
+              <select id="chatStateSelect" class="custom-select"></select>
+            </div>
+            <div class="filter-group" style="margin-top:0.75rem;">
+              <label>Select Crop Focus:</label>
+              <select id="chatCropSelect" class="custom-select"></select>
+            </div>
+          </div>
+
+          <div>
+            <h4>Quick Advisory Prompts</h4>
+            <div class="prompt-suggestions" style="margin-top:0.5rem;">
+              <button class="prompt-chip" data-q="How to cure leaf curl virus in chilli?">🍃 Chilli Leaf Curl Virus cure</button>
+              <button class="prompt-chip" data-q="What is the fertilizer schedule for 1 acre of wheat?">🌾 Fertilizer dosage for Wheat</button>
+              <button class="prompt-chip" data-q="How can I prepare Jeevamrut for organic farming?">🌿 How to make Jeevamrut</button>
+              <button class="prompt-chip" data-q="What should I do if sudden heavy rain occurs during harvest?">🌧️ Rain emergency measures</button>
+              <button class="prompt-chip" data-q="How can I apply for PM-KISAN ₹6,000 subsidy?">💰 PM-KISAN eligibility & steps</button>
+              <button class="prompt-chip" data-q="How to reclaim alkaline and saline soil with gypsum?">🧪 Saline soil reclamation</button>
+            </div>
+          </div>
+        </aside>
+
+        <!-- Chat interactive conversation -->
+        <div class="chat-container">
+          <div class="chat-header">
+            <div class="chat-title">
+              <h3>Krishi Mitra Advisory Assistant</h3>
+              <p>Powered by ICAR, State Agricultural Universities & KVK Agronomy Guidelines</p>
+            </div>
+            <span class="badge" style="background:#dcfce7; color:#15803d;">Instant Response</span>
+          </div>
+
+          <div class="chat-messages" id="chatMessages">
+            <div class="chat-bubble bot">
+              <div class="bot-title">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="#059669"><path d="M12 2L1 21h22L12 2zm0 4.2L19.3 19H4.7L12 6.2zM11 10v4h2v-4h-2zm0 6v2h2v-2h-2z"/></svg>
+                Namaste! Welcome to Krishi Mitra
+              </div>
+              <div class="bot-summary">
+                I am your digital agricultural scientist. You can ask me any question across Indian agriculture:
+              </div>
+              <ul class="bot-points">
+                <li>Crop cultivation guides (sowing times, spacing, seed rates)</li>
+                <li>Pest, insect, and fungal disease diagnosis and remedies</li>
+                <li>Fertilizer dosages (Urea, DAP, MOP, Zinc, Nano Urea)</li>
+                <li>Organic farming preparations (Jeevamrut, Beejamrit, Neem spray)</li>
+                <li>Emergency weather management (drought, frost, unseasonal rains)</li>
+                <li>Government subsidies, loans (KCC), and PMFBY crop insurance</li>
+              </ul>
+              <div style="font-size:0.8rem; color:var(--text-light); margin-top:0.5rem;">
+                <em>Select your state or crop in the left panel for tailored advice, or click any quick prompt!</em>
+              </div>
+            </div>
+          </div>
+
+          <div class="chat-input-bar">
+            <input type="text" id="chatInput" class="chat-input" placeholder="Type your farming question here... (e.g. 'How to control Fall Armyworm in Maize?')" />
+            <button id="chatSendBtn" class="btn-send">
+              <span>Ask Advisor</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 3: INDIA STATE & AREA EXPLORER
+         ====================================================================== -->
+    <section id="states-view" class="view-section">
+      <div class="section-header">
+        <h2>India State & Area Agricultural Explorer</h2>
+        <p>Comprehensive agro-climatic profiles, soil types, rainfall, crop seasons, and regional advisories for all 28 States and 8 Union Territories.</p>
+      </div>
+
+      <div class="explorer-controls">
+        <div class="filter-pills">
+          <button class="pill-btn region-pill active" data-region="all">All India (36)</button>
+          <button class="pill-btn region-pill" data-region="North">North India</button>
+          <button class="pill-btn region-pill" data-region="South">South India</button>
+          <button class="pill-btn region-pill" data-region="East">East India</button>
+          <button class="pill-btn region-pill" data-region="West">West India</button>
+          <button class="pill-btn region-pill" data-region="Central">Central India</button>
+          <button class="pill-btn region-pill" data-region="North East">North East</button>
+          <button class="pill-btn region-pill" data-region="Territory">Union Territories</button>
+        </div>
+
+        <div class="search-box">
+          <input type="text" id="stateSearchInput" class="custom-input" placeholder="🔍 Search state, district, or agro-climatic zone..." />
+        </div>
+      </div>
+
+      <div class="states-grid" id="statesGrid"></div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 4: CROP ENCYCLOPEDIA
+         ====================================================================== -->
+    <section id="crops-view" class="view-section">
+      <div class="section-header">
+        <h2>Comprehensive Crop Encyclopedia</h2>
+        <p>Deep agronomic intelligence covering all crop categories: optimal soil pH, climate, seed rate, spacing, N-P-K schedule, and yield potential.</p>
+      </div>
+
+      <div class="explorer-controls">
+        <div class="filter-pills">
+          <button class="pill-btn crop-cat-pill active" data-cat="all">All Crops</button>
+          <button class="pill-btn crop-cat-pill" data-cat="Cereals">Cereals & Millets</button>
+          <button class="pill-btn crop-cat-pill" data-cat="Pulses">Pulses</button>
+          <button class="pill-btn crop-cat-pill" data-cat="Oilseeds">Oilseeds</button>
+          <button class="pill-btn crop-cat-pill" data-cat="Commercial">Commercial & Cash</button>
+          <button class="pill-btn crop-cat-pill" data-cat="Vegetables">Vegetables</button>
+          <button class="pill-btn crop-cat-pill" data-cat="Fruits">Fruits</button>
+          <button class="pill-btn crop-cat-pill" data-cat="Spices">Spices</button>
+          <button class="pill-btn crop-cat-pill" data-cat="Plantation">Plantation</button>
+        </div>
+
+        <div class="search-box">
+          <input type="text" id="cropSearchInput" class="custom-input" placeholder="🔍 Search crop name, scientific name, or category..." />
+        </div>
+      </div>
+
+      <div class="crops-grid" id="cropsGrid"></div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 5: CROP DOCTOR & DIAGNOSTICS
+         ====================================================================== -->
+    <section id="doctor-view" class="view-section">
+      <div class="section-header">
+        <h2>Crop Doctor & Diagnostic Solver</h2>
+        <p>Identify plant diseases, insect attacks, or nutrient deficiencies and get instant dual solutions: precision chemical treatments and eco-friendly organic remedies.</p>
+      </div>
+
+      <div class="diagnostic-container">
+        <!-- Diagnostic Filter Form -->
+        <div class="diagnostic-form-card">
+          <h3 style="color:var(--primary-dark); margin-bottom:1rem;">Diagnose Problem</h3>
+
+          <div class="filter-group" style="margin-bottom:1rem;">
+            <label>1. Select Affected Crop:</label>
+            <select id="diagCropSelect" class="custom-select"></select>
+          </div>
+
+          <div class="filter-group" style="margin-bottom:1rem;">
+            <label>2. Plant Part Showing Symptoms:</label>
+            <select id="diagPartSelect" class="custom-select">
+              <option value="all">Any / Entire Plant</option>
+              <option value="leaves">Leaves / Foliage</option>
+              <option value="stem">Stem / Tillers / Whorl</option>
+              <option value="roots">Roots / Vascular Collar</option>
+              <option value="fruit">Fruits / Bolls / Grain / Cobs</option>
+              <option value="flowers">Flowers / Squares</option>
+            </select>
+          </div>
+
+          <div class="filter-group" style="margin-bottom:1.25rem;">
+            <label>3. Symptom Keyword:</label>
+            <input type="text" id="diagSymptomInput" class="custom-input" placeholder="e.g. 'leaf curl', 'yellow spots', 'borer', 'blight', 'wilt', 'shot holes'..." />
+          </div>
+
+          <button id="btnDiagnose" class="btn-calc">
+            🔬 Diagnose & Get Remedies
+          </button>
+
+          <div style="margin-top:1.5rem; font-size:0.8rem; color:var(--text-muted); line-height:1.5; background:var(--bg-subtle); padding:0.75rem; border-radius:var(--radius-md);">
+            💡 <strong>Diagnostic Tip:</strong> Check whether yellowing starts from bottom leaves (Nitrogen deficiency) or young upper leaves (Iron/Sulphur). Look for webbing, sawdust-like frass, or powdery deposits on the leaf underside.
+          </div>
+        </div>
+
+        <!-- Diagnostic Results List -->
+        <div class="diagnostic-results-container" id="diagResults"></div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 6: GOVERNMENT SCHEMES & SUBSIDIES
+         ====================================================================== -->
+    <section id="schemes-view" class="view-section">
+      <div class="section-header">
+        <h2>Government Agricultural Schemes & Subsidies</h2>
+        <p>Direct access to Central & State welfare initiatives, eligibility checklists, application procedures, and direct farmer helplines.</p>
+      </div>
+
+      <div class="search-box" style="max-width:400px; margin-bottom:1.5rem;">
+        <input type="text" id="schemeSearchInput" class="custom-input" placeholder="🔍 Search scheme (e.g. 'PM-KISAN', 'solar pump', 'insurance')..." />
+      </div>
+
+      <div class="schemes-grid" id="schemesGrid"></div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 7: FERTILIZER & SEED RATE CALCULATOR
+         ====================================================================== -->
+    <section id="calc-view" class="view-section">
+      <div class="section-header">
+        <h2>Fertilizer & Seed Rate Calculator</h2>
+        <p>Calculate exact quantities of Urea, DAP, MOP, Zinc Sulphate, and Seed required for your farm acreage.</p>
+      </div>
+
+      <div class="calc-wrapper">
+        <div class="calc-inputs-grid">
+          <div class="filter-group">
+            <label>Select Crop:</label>
+            <select id="calcCropSelect" class="custom-select"></select>
+          </div>
+          <div class="filter-group">
+            <label>Farm Area (in Acres):</label>
+            <input type="number" id="calcAcresInput" class="custom-input" value="1.0" min="0.1" step="0.5" />
+          </div>
+        </div>
+
+        <button id="btnRunCalc" class="btn-calc">
+          ⚡ Calculate Fertilizer & Seed Schedule
+        </button>
+
+        <div id="calcResultsBox" class="calc-results-box">
+          <h3 style="color:var(--primary-dark); margin-bottom:0.25rem;">Nutrient Requirement for <span id="calcResCropName"></span></h3>
+          <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:1rem;">Based on State Agricultural University standard recommendation per acre</p>
+
+          <div class="calc-cards-row">
+            <div class="calc-bag-card">
+              <div class="val" id="calcResUrea">-</div>
+              <div class="label">Urea (46% N)</div>
+            </div>
+            <div class="calc-bag-card">
+              <div class="val" id="calcResDap">-</div>
+              <div class="label">DAP (18:46:0)</div>
+            </div>
+            <div class="calc-bag-card">
+              <div class="val" id="calcResMop">-</div>
+              <div class="label">MOP (60% K2O)</div>
+            </div>
+            <div class="calc-bag-card">
+              <div class="val" id="calcResZinc">-</div>
+              <div class="label">Zinc Sulphate (21%)</div>
+            </div>
+            <div class="calc-bag-card">
+              <div class="val" id="calcResSeed">-</div>
+              <div class="label">Seed Rate</div>
+            </div>
+          </div>
+
+          <div class="card-item" style="background:#ecfdf5; border-color:#a7f3d0; margin-top:1rem;">
+            <strong style="color:#065f46;">Recommended Application Schedule:</strong>
+            <p id="calcResSchedule" style="font-size:0.88rem; margin-top:0.25rem;"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Interactive Modal Drawer for States & Crops -->
+  <div class="modal-overlay" id="appModal">
+    <div class="modal-card">
+      <button class="modal-close" aria-label="Close modal">&times;</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-col">
+        <h4>AgriMitra (KrishiSeva)</h4>
+        <p>A next-generation digital agriculture intelligence and farmer decision support platform, built to empower India's 140+ million cultivators with precision agronomy.</p>
+        <p style="font-size:0.8rem; color:#6ee7b7;">Compatible with AgriStack, ICAR, and Digital Public Infrastructure (DPI) initiatives.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Access Modules</h4>
+        <li><a href="#" data-goto="case-study-view">Comprehensive Case Study</a></li>
+        <li><a href="#" data-goto="chat-view">Krishi AI Q&A Advisory</a></li>
+        <li><a href="#" data-goto="states-view">28 States & 8 UTs Directory</a></li>
+        <li><a href="#" data-goto="crops-view">Crop Encyclopedia & Practices</a></li>
+        <li><a href="#" data-goto="doctor-view">Crop Doctor Diagnostics</a></li>
+        <li><a href="#" data-goto="calc-view">Fertilizer Calculator</a></li>
+      </div>
+
+      <div class="footer-col">
+        <h4>Emergency Farmer Helplines</h4>
+        <li>📞 Kisan Call Centre: <strong>1800-180-1551</strong> (Toll Free)</li>
+        <li>📞 PMFBY Crop Insurance: <strong>14447</strong></li>
+        <li>📞 PM-KISAN Helpline: <strong>155261 / 1800-115-526</strong></li>
+        <li>📞 e-NAM Mandi Support: <strong>1800-270-0224</strong></li>
+        <li>🌐 Soil Health Portal: <strong>soilhealth.dac.gov.in</strong></li>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      &copy; 2026 AgriMitra - Open Agronomic Intelligence Platform. Engineered for Indian Agriculture.
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
